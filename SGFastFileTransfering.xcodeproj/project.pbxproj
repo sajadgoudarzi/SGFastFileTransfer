@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A695DB08210B77490050DA4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A695DB07210B77490050DA4D /* main.m */; };
+		A695DB0B210B77490050DA4D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A695DB0A210B77490050DA4D /* AppDelegate.m */; };
+		A695DB0E210B77490050DA4D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A695DB0D210B77490050DA4D /* ViewController.m */; };
+		A695DB11210B77490050DA4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A695DB0F210B77490050DA4D /* Main.storyboard */; };
+		A695DB13210B77490050DA4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A695DB12210B77490050DA4D /* Assets.xcassets */; };
+		A695DB16210B77490050DA4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A695DB14210B77490050DA4D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A695DB03210B77490050DA4D /* SGFastFileTransfering.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SGFastFileTransfering.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A695DB07210B77490050DA4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A695DB09210B77490050DA4D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A695DB0A210B77490050DA4D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A695DB0C210B77490050DA4D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A695DB0D210B77490050DA4D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A695DB10210B77490050DA4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A695DB12210B77490050DA4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A695DB15210B77490050DA4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A695DB17210B77490050DA4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A695DB00210B77490050DA4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A695DAFA210B77480050DA4D = {
+			isa = PBXGroup;
+			children = (
+				A695DB05210B77490050DA4D /* SGFastFileTransfering */,
+				A695DB04210B77490050DA4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A695DB04210B77490050DA4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A695DB03210B77490050DA4D /* SGFastFileTransfering.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A695DB05210B77490050DA4D /* SGFastFileTransfering */ = {
+			isa = PBXGroup;
+			children = (
+				A695DB09210B77490050DA4D /* AppDelegate.h */,
+				A695DB0A210B77490050DA4D /* AppDelegate.m */,
+				A695DB0C210B77490050DA4D /* ViewController.h */,
+				A695DB0D210B77490050DA4D /* ViewController.m */,
+				A695DB0F210B77490050DA4D /* Main.storyboard */,
+				A695DB12210B77490050DA4D /* Assets.xcassets */,
+				A695DB14210B77490050DA4D /* LaunchScreen.storyboard */,
+				A695DB17210B77490050DA4D /* Info.plist */,
+				A695DB06210B77490050DA4D /* Supporting Files */,
+			);
+			path = SGFastFileTransfering;
+			sourceTree = "<group>";
+		};
+		A695DB06210B77490050DA4D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A695DB07210B77490050DA4D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A695DB02210B77490050DA4D /* SGFastFileTransfering */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A695DB1A210B77490050DA4D /* Build configuration list for PBXNativeTarget "SGFastFileTransfering" */;
+			buildPhases = (
+				A695DAFF210B77490050DA4D /* Sources */,
+				A695DB00210B77490050DA4D /* Frameworks */,
+				A695DB01210B77490050DA4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SGFastFileTransfering;
+			productName = SGFastFileTransfering;
+			productReference = A695DB03210B77490050DA4D /* SGFastFileTransfering.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A695DAFB210B77490050DA4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Aban;
+				TargetAttributes = {
+					A695DB02210B77490050DA4D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A695DAFE210B77490050DA4D /* Build configuration list for PBXProject "SGFastFileTransfering" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A695DAFA210B77480050DA4D;
+			productRefGroup = A695DB04210B77490050DA4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A695DB02210B77490050DA4D /* SGFastFileTransfering */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A695DB01210B77490050DA4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A695DB16210B77490050DA4D /* LaunchScreen.storyboard in Resources */,
+				A695DB13210B77490050DA4D /* Assets.xcassets in Resources */,
+				A695DB11210B77490050DA4D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A695DAFF210B77490050DA4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A695DB0E210B77490050DA4D /* ViewController.m in Sources */,
+				A695DB0B210B77490050DA4D /* AppDelegate.m in Sources */,
+				A695DB08210B77490050DA4D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A695DB0F210B77490050DA4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A695DB10210B77490050DA4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A695DB14210B77490050DA4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A695DB15210B77490050DA4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A695DB18210B77490050DA4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A695DB19210B77490050DA4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A695DB1B210B77490050DA4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SGFastFileTransfering/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rainforest.SGFastFileTransfering;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A695DB1C210B77490050DA4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SGFastFileTransfering/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rainforest.SGFastFileTransfering;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A695DAFE210B77490050DA4D /* Build configuration list for PBXProject "SGFastFileTransfering" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A695DB18210B77490050DA4D /* Debug */,
+				A695DB19210B77490050DA4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A695DB1A210B77490050DA4D /* Build configuration list for PBXNativeTarget "SGFastFileTransfering" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A695DB1B210B77490050DA4D /* Debug */,
+				A695DB1C210B77490050DA4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A695DAFB210B77490050DA4D /* Project object */;
+}
